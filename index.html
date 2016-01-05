@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 
 <html>
@@ -7,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 
-  <title>CI Wise.org</title>
+  <title>CI Wise Inc.</title>
 
 <!-- Material Design fonts -->
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
@@ -207,140 +206,148 @@
       display: block;
       cursor: text;
     }
+	
+/* =Reset
+-------------------------------------------------------------- */
+ 
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 0;
+}
+ 
+html,
+body,
+div{
+    margin: 0;
+    padding: 0;
+}
+
+/* =Color
+-------------------------------------------------------------- */
+ 
+#header{
+    background: #cccccc;
+	height: 40px; 
+}
+ 
+#main{
+    background: #dddddd;    
+}
+ 
+#secondary {
+    border: 1px solid #bbbbbb;
+}
+
+/* =Structure
+-------------------------------------------------------------- */
+ 
+.wrap{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 1em;
+}
+ 
+.wrap:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+ 
+#primary{
+    max-width: 720px;
+    margin: 0 auto;
+}
+ 
+#secondary{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+/* =Media Queries
+-------------------------------------------------------------- */
+ 
+@media screen and (min-width : 900px) {
+    #primary{
+        float: left;
+        width: 65%;
+        padding-right: 1em;
+    }
+ 
+    #secondary{
+        float: right;
+        width: 35%;
+    }
+}	
   </style>
 </head>
 <body>
-<div class="container">
-        <div class="bs-component">
-          <div class="navbar navbar-inverse">
-            <div class="container-fluid">
-              <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-inverse-collapse">
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="javascript:void(0)">Home</a>
-              </div>
-	      <!--
-              <div class="navbar-collapse collapse navbar-inverse-collapse">
-                <ul class="nav navbar-nav navbar-left">
-                  <li class="dropdown">
-                    <a href="bootstrap-elements.html" data-target="#" class="dropdown-toggle" data-toggle="dropdown">Projects
-                      <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                      <li><a href="javascript:void(0)">Mudskipper</a></li>
-                      <li><a href="javascript:void(0)">MusicRecital</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-	      -->
-            </div>
-          </div>
-        </div>
+	<div id="page">
+        <div id="header" class="site-header">
+            <div class="wrap">
+			    <!-- not using 
+                <div id="branding" role="banner">
+                    <p class="site-title"><a href="http://ciwise.com">CI Wise Inc.</a></p>
+                    <p class="site-description">Your Dreams, Our Design ...</p>
+                </div> --><!--#branding-->
+            </div><!--.wrap-->
+        </div><!--#header-->
+ 
+        <div id="main">
+            <div class="wrap">
+ 
+                <div id="primary">
+                    <div id="content" role="main">
+					    <!--img src="images/skyline-pic.png" align="center"-->
+						<h1><img src="images/owl-pic.png"> CI Wise Inc.</h1>
+						<h2>Enterprise Open Source Consulting</h2>
 
-
-		<div class="page-header" id="banner">
-			<div class="row">
-				<div class="col-sm-6">
-				<h1>CI Wise Inc.</h1>
-				<p class="lead">Enterprise Open Source Consulting</p>
-				</div>
-			</div>
-		</div>
-
-  <!-- Intro Paragraph   
-================================================== -->
-   <div class="container-fluid">
-    <div class="row">
-		<p>We are hindered today by nothing but our imagination as it relates to computers and technology. 
-		Open source continues to provide cookbook solutions to almost every imaginable problem encountered in business or home 
-		life. The sheer collection of this software is so immense that the reason people continue to buy proprietary software 
-		is only because they either don't know of the open source solution or think it's inferior. Cost is still a factor because 
-		open source has a learning curve. Time is money and that's where we come in. An open source enterprise consultant can 
-		introduce your business to fantastic new technologies that can improve your bottom line. They can lead your development 
-		staff into new territory, improving your overall development, testing, continuous integration, deployment, and agility. 
-		Contact us at david@ciwise.com or call 919-605-6529.</p>	
-	</div>
-	<div class="row">
-		<p><small><strong>CSS Design</strong> by <strong>Bootstrap-Material-Design</strong> at <a href="http://fezvrasta.github.io">http://fezvrasta.github.io</a></small></p>
-	</div>
-   </div>
-
-
-
-  <div id="source-modal" class="modal fade" tabindex="-1">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-          <h4 class="modal-title">Source Code</h4>
-        </div>
-        <div class="modal-body">
-          <pre></pre>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<br>
-
+						<p>We are hindered today by nothing but our imagination as it relates to computers and technology. 
+						Open source continues to provide cookbook solutions to almost every imaginable problem encountered 
+						in business or home life. The sheer collection of this software is so immense that the reason people 
+						continue to buy proprietary software is only because they either don't know of the open source 
+						solution or think it's inferior. Cost is still a factor because open source has a learning curve. 
+						Time is money and that's where we come in. An open source enterprise consultant can introduce your 
+						business to fantastic new technologies that can improve your bottom line. They can lead your development 
+						staff into new territory, improving your overall development, testing, continuous integration, 
+						deployment, and agility. Contact us at david@ciwise.com or call 919-605-6529.</P>
+                        
+                    </div><!--#content-->
+                </div><!--#primary-->
+ 
+                <div id="secondary">
+                    <div class="widget">
+						
+                        <p><h3>Pages (Under Construction)</h3>
+						<ul>
+						   <li><a href="">About</a></li>
+						   <li><a href="">Services</a></li>
+						   <li><a href="">Knowledge Base</a></li>
+						   <li><a href="">White Papers</a></li>
+						   <li><a href="">Blog</a></li>
+						   <li><a href="">Contact<a></li>
+						</ul></p>
+                    </div><!--.widget-->
+                </div><!--#secondary-->
+ 
+            </div><!--.wrap-->
+        </div><!--#main-->
+ 
+        <div id="footer" class="site-footer">
+            <div class="wrap">
+ 
+                <p class="site-credits">© Copyright 2016 - David L. Whitehurst</p>
+ 
+            </div><!--.wrap-->
+        </div><!--#footer-->
+ 
+    </div><!--#page-->
+	
 <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-<script>
-  (function () {
 
-    var $button = $("<div id='source-button' class='btn btn-primary btn-xs'>&lt; &gt;</div>").click(function () {
-      var index = $('.bs-component').index($(this).parent());
-      $.get(window.location.href, function (data) {
-        var html = $(data).find('.bs-component').eq(index).html();
-        html = cleanSource(html);
-        $("#source-modal pre").text(html);
-        $("#source-modal").modal();
-      })
-
-    });
-
-    $('.bs-component [data-toggle="popover"]').popover();
-    $('.bs-component [data-toggle="tooltip"]').tooltip();
-
-    $(".bs-component").hover(function () {
-      $(this).append($button);
-      $button.show();
-    }, function () {
-      $button.hide();
-    });
-
-    function cleanSource(html) {
-      var lines = html.split(/\n/);
-
-      lines.shift();
-      lines.splice(-1, 1);
-
-      var indentSize = lines[0].length - lines[0].trim().length,
-          re = new RegExp(" {" + indentSize + "}");
-
-      lines = lines.map(function (line) {
-        if (line.match(re)) {
-          line = line.substring(indentSize);
-        }
-
-        return line;
-      });
-
-      lines = lines.join("\n");
-
-      return lines;
-    }
-
-    $(".icons-material .icon").each(function () {
-      $(this).after("<br><br><code>" + $(this).attr("class").replace("icon ", "") + "</code>");
-    });
-
-  })();
-
-</script>
 <script src="dist/js/ripples.min.js"></script>
 <script src="dist/js/material.min.js"></script>
 <script src="//fezvrasta.github.io/snackbarjs/dist/snackbar.min.js"></script>
