@@ -304,252 +304,18 @@ div{
  
         <div id="main">
             <div class="wrap">
- 
                 <div id="primary">
                     <div id="content" role="main">
-					    <!--img src="images/skyline-pic.png" align="center"-->
 						<h1><img src="images/owl-pic.png"> CI Wise Inc.</h1>
-						<h2>Website Hosting Project</h2>
-
-						<p>Many months ago I purchased a theme for Wordpress and was hosting Wordpress on a virtual server in a datacenter in Atlanta, Georgia.
-						This server was expensive comparatively with other virtual servers but I liked the hosting company and the documentation was phenomenal.
-						I'm providing background because this post is about another solution to the same problem. My website hosting was time consuming and
-						expensive for what I was trying to do.</P>
+						<h2>Creating and Testing a Mule Connector (Crash Course)</h2>
+						<p>I've recently been learning about two exciting projects, Mule and JHipster. JHipster easily provides RESTful services for CRUD operations.
+						As I've been learning Mule, I decided I would create a custom connector to communicate with my JHipster applications using it's REST API.
+						This posting describes how I created the Mule connector project and implemented the connector to make RESTful web service calls. I used Jersey 
+						for the API calls and Jackson annotations to serialize and deserialize POJOs to JSON and vice-versa.</p>
 						
-						<p>I had two servers that I managed and I have since shut both of them down now. I was using the other server for hosting and testing
-						an AppFuse application I did for a mobile sales force. I recently wanted to at least have a static page for my company shingle, so to 
-						speak. I was now on the hunt to find some way to host a static web site somewhere and be able to use my domain ciwise.com there.</p>
-						
-						<p>My first solution was to go with a web host that had pre-designed templates to make things easier. It worked for the static page need
-						but customization is almost out of the question. I've been a web developer most of my career and this hosting site is more for people
-						that know absolutely nothing about websites or HTML. I left the page in place for a while because it was easy to setup and it was cheap.
-						I disconnected my domain and shut that site down tonight.</p>
-						
-						<p>The simple answer to my web hosting problem was so close and I didn't realize it was there until yesterday. The answer? It was Github
-						Pages. Well, this was part of it. Every user, organization, and project on GitHub can have a website. The URL will, however be related 
-						to Github. An example project could be http://jdoe.github.io/myproject . I have several repositories under my own user and more related 
-						to my organization CI Wise.</p>
-						
-<p><pre><code class="java">
-package com.ciwise.mudskipper.domain;
+						<p>The creation of the AnyPoint Connector project itself is easy. The new project operation is simple and it will create a skeleton connector
+						for you. An example greeting operation is provided and the connector can be built, installed, and tested immediately.</p>
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import org.hibernate.annotations.Cache;
-import org.hibernate.annotations.CacheConcurrencyStrategy;
-import org.hibernate.validator.constraints.Email;
-
-import org.springframework.data.elasticsearch.annotations.Document;
-import javax.persistence.*;
-import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Pattern;
-import javax.validation.constraints.Size;
-import java.io.Serializable;
-import java.util.HashSet;
-import java.util.Set;
-import java.time.ZonedDateTime;
-
-/**
- * A user.
- */
-@Entity
-@Table(name = "jhi_user")
-@Cache(usage = CacheConcurrencyStrategy.NONSTRICT_READ_WRITE)
-@Document(indexName = "user")
-public class User extends AbstractAuditingEntity implements Serializable {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
-
-    @NotNull
-    @Pattern(regexp = "^[a-z0-9]*$|(anonymousUser)")
-    @Size(min = 1, max = 50)
-    @Column(length = 50, unique = true, nullable = false)
-    private String login;
-
-    @JsonIgnore
-    @NotNull
-    @Size(min = 60, max = 60) 
-    @Column(name = "password_hash",length = 60)
-    private String password;
-
-    @Size(max = 50)
-    @Column(name = "first_name", length = 50)
-    private String firstName;
-
-    @Size(max = 50)
-    @Column(name = "last_name", length = 50)
-    private String lastName;
-
-    @Email
-    @Size(max = 100)
-    @Column(length = 100, unique = true)
-    private String email;
-
-    @Column(nullable = false)
-    private boolean activated = false;
-
-    @Size(min = 2, max = 5)
-    @Column(name = "lang_key", length = 5)
-    private String langKey;
-
-    @Size(max = 20)
-    @Column(name = "activation_key", length = 20)
-    @JsonIgnore
-    private String activationKey;
-
-    @Size(max = 20)
-    @Column(name = "reset_key", length = 20)
-    private String resetKey;
-
-    @Column(name = "reset_date", nullable = true)
-    private ZonedDateTime resetDate = null;
-
-    @JsonIgnore
-    @ManyToMany
-    @JoinTable(
-        name = "jhi_user_authority",
-        joinColumns = {@JoinColumn(name = "user_id", referencedColumnName = "id")},
-        inverseJoinColumns = {@JoinColumn(name = "authority_name", referencedColumnName = "name")})
-    @Cache(usage = CacheConcurrencyStrategy.NONSTRICT_READ_WRITE)
-    private Set<Authority> authorities = new HashSet<>();
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public String getLogin() {
-        return login;
-    }
-
-    public void setLogin(String login) {
-        this.login = login;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
-    public String getFirstName() {
-        return firstName;
-    }
-
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public boolean getActivated() {
-        return activated;
-    }
-
-    public void setActivated(boolean activated) {
-        this.activated = activated;
-    }
-
-    public String getActivationKey() {
-        return activationKey;
-    }
-
-    public void setActivationKey(String activationKey) {
-        this.activationKey = activationKey;
-    }
-
-    public String getResetKey() {
-        return resetKey;
-    }
-
-    public void setResetKey(String resetKey) {
-        this.resetKey = resetKey;
-    }
-
-    public ZonedDateTime getResetDate() {
-       return resetDate;
-    }
-
-    public void setResetDate(ZonedDateTime resetDate) {
-       this.resetDate = resetDate;
-    }
-
-    public String getLangKey() {
-        return langKey;
-    }
-
-    public void setLangKey(String langKey) {
-        this.langKey = langKey;
-    }
-
-    public Set<Authority> getAuthorities() {
-        return authorities;
-    }
-
-    public void setAuthorities(Set<Authority> authorities) {
-        this.authorities = authorities;
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) {
-            return true;
-        }
-        if (o == null || getClass() != o.getClass()) {
-            return false;
-        }
-
-        User user = (User) o;
-
-        if (!login.equals(user.login)) {
-            return false;
-        }
-
-        return true;
-    }
-
-    @Override
-    public int hashCode() {
-        return login.hashCode();
-    }
-
-    @Override
-    public String toString() {
-        return "User{" +
-            "login='" + login + '\'' +
-            ", firstName='" + firstName + '\'' +
-            ", lastName='" + lastName + '\'' +
-            ", email='" + email + '\'' +
-            ", activated='" + activated + '\'' +
-            ", langKey='" + langKey + '\'' +
-            ", activationKey='" + activationKey + '\'' +
-            "}";
-    }
-}
-
-						</code></pre>
-						</p>
-                        
                     </div><!--#content-->
                 </div><!--#primary-->
  
@@ -559,12 +325,12 @@ public class User extends AbstractAuditingEntity implements Serializable {
 						and Principal Consultant. He's currently working with JHipster for Microservices and Mule for enterprise service communications.</p>
                         <p><h3>Pages (Under Construction)</h3>
 						<ul>
-						   <li><a href="">About</a></li>
+						   <li><a href="about.html">About</a></li>
 						   <li><a href="">Services</a></li>
 						   <li><a href="">Knowledge Base</a></li>
 						   <li><a href="">White Papers</a></li>
-						   <li><a href="">Blog</a></li>
-						   <li><a href="">Contact<a></li>
+						   <li><a href="blog.html">Blog</a></li>
+						   <li><a href="contact">Contact<a></li>
 						</ul></p>
                     </div><!--.widget-->
                 </div><!--#secondary-->
