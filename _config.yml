@@ -9,7 +9,7 @@
 title: CI WISE
 email: david@ciwise.com
 description: > # this means to ignore newlines until "baseurl:"
-  Welcome to the CI WISE blog. We aim to improve enterprise software development through education
+  Welcome to CI Wise Inc. We aim to improve enterprise software development through education
   and awareness.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://ciwise.com" # the base hostname & protocol for your site
