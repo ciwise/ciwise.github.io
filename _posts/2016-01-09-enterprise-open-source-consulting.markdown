@@ -5,7 +5,6 @@ date:   2016-01-09 21:06:19 -0500
 categories: jekyll update
 ---
 
-![office-space]({{ site.baseurl }}/images/office-1.jpg) 
 
 We are hindered today by nothing but our imagination as it relates to computers and technology. Open source continues to provide cookbook solutions 
 to almost every imaginable problem encountered in business or home life. The sheer collection of this software is so immense that the reason people 
