@@ -89,4 +89,69 @@ public class CIWiseRESTConnector {
 }
 {% endhighlight %}
 
-*This post is unfinished ... Check back often, as it's a work in progress.*
+Let's build the connector and install it into AnyPoint Studio so we can test it with Mule. The connector project when created added the greet() method to the @Connector
+class because we checked the box to add an example operation. This operation is shown by the greet() method and annotated with the @Processor notation. When the Mule
+connector is selected in a Mule Project flow, the operations that have been annotated and defined, are selectable in the IDE to be processed during communications across
+the Mule flow in production. Select the project ci-wise-rest-connector in the Package explorer and right-mouse. Next select AnyPoint Connector at the bottom and then 
+Build Connector. An Apache Maven build will commence. The project should build successfully.
+
+To install the connector for testing, follow the same steps and when the final pop-up menu is shown, select Install or Update. The IDE will install and accept the connector
+for use when designing a Mule flow. A dialog should be shown when the installation is complete providing confirmation that the install was successful.
+
+To test the connector using Mule, I created a Mule project called muletest. Open the Mule test project and drag an HTTP connector into the Mule Flow view. Set the properties
+of the connector to use localhost and port 8081. Next, find CIWiseREST in the Mule palette and drag your new connector into the flow beside te HTTP connector. Select your
+connector in the flow view and double-click. The connector properties window will be shown. Under Basic Settings/Connector Configuration, select the add or plus icon. 
+Select "CIWiseREST__Configuration". Now select the Operation drop-down and choose "Greet". The greet method required an input string called friend and under General/Friend:
+you need to give the operation this String. Enter "John". When we run the Mule application and give the browser the URL http://localhost:8081 we should expect to see 
+"Hello John. How are you?". That's it. It doesn't do much, however it demonstrates the @Connector and @Process annotations and how they are used with a Mule Flow. 
+
+Click in the Mule flow view and the little red X in the upper right of your connector should go away as there are no errors now. Press the Save All icon in the IDE. We are
+now ready to test our connector. Click on the Mule flow XML file in the Package Explorer and right-mouse. Choose Run-As/Mule Application. When Mule says it's deployed and
+successful, open a browser and enter http://localhost:8081. I see "How are you? John. Hello". I set my configuration backwards. The return statement in the connector
+operation method looks like this.
+
+**Listing 2 - Snippet from CIWiseRESTConnector.java**
+{% highlight java %}
+    @Processor
+    public String greet(String friend) {
+        /*
+         * MESSAGE PROCESSOR CODE GOES HERE
+         */
+        return config.getGreeting() + " " + friend + ". " + config.getReply();
+    }
+
+{% endhighlight %}
+
+And, here's the source for the Configuration.
+
+**Listing 3 - ConnectorConfig.java**
+{% highlight java %}
+package org.ciwise.modules.ciwiserest.config;
+
+import org.mule.api.annotations.components.Configuration;
+
+@Configuration(friendlyName = "Configuration")
+public class ConnectorConfig {
+
+	private final String reply = "Hello";
+	private final String greeting = "How are you?";
+
+	public String getReply() {
+		return reply;
+	}
+	public String getGreeting() {
+		return greeting;
+	}
+	
+}
+{% endhighlight %}
+
+The greeting should be "Hello" and the reply should be "How are you?". Delete the connector from the Mule flow view. Swap the Strings, rebuild the connector, 
+and then try to update the installation. I found that for some reason the Maven clean operation would not work. I'm still trying to figure this out, but you 
+can uninstall the connector, delete the target directory in a terminal or file explorer and then build the connector and install it successfully. Do this and 
+re-test the connector using Mule.
+
+
+
+
+
