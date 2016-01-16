@@ -149,7 +149,9 @@ public class ConnectorConfig {
 The greeting should be "Hello" and the reply should be "How are you?". Delete the connector from the Mule flow view. Swap the Strings, rebuild the connector, 
 and then try to update the installation. I found that for some reason the Maven clean operation would not work. I'm still trying to figure this out, but you 
 can uninstall the connector, delete the target directory in a terminal or file explorer and then build the connector and install it successfully. Do this and 
-re-test the connector using Mule.
+re-test the connector using Mule. I just did and everything is fine now.
+
+Now that I've shown the Mule integratiof the generated connector in the flow view, let's add a realistic operation to pull 
 
 
 
