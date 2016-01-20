@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+   
+      <title>ciwise.com</title>
+   
+   <link>http://ciwise.com</link>
+   <description>Your dreams. Our design</description>
+   <language>en-us</language>
+   <managingEditor> David L. Whitehurst</managingEditor>
+   <atom:link href="rss" rel="self" type="application/rss+xml" />
+   
+	<item>
+	  <title>Web Development for Mobile Users</title>
+	  <link>//web-development-for-mobile-users</link>
+	  <author>David L. Whitehurst</author>
+	  <pubDate>2016-01-17T05:31:00-05:00</pubDate>
+	  <guid>//web-development-for-mobile-users</guid>
+	  <description><![CDATA[
+	     <p>This post is currently in draft status.</p>
+
+
+
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>Open Source Development Training</title>
+	  <link>//open-source-web-development-training</link>
+	  <author>David L. Whitehurst</author>
+	  <pubDate>2016-01-17T05:31:00-05:00</pubDate>
+	  <guid>//open-source-web-development-training</guid>
+	  <description><![CDATA[
+	     <p>This post is currently in draft status.</p>
+
+
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>Enterprise Application Development</title>
+	  <link>//enterprise-application-development</link>
+	  <author>David L. Whitehurst</author>
+	  <pubDate>2016-01-17T05:31:00-05:00</pubDate>
+	  <guid>//enterprise-application-development</guid>
+	  <description><![CDATA[
+	     <p>This post is currently in draft status.</p>
+
+
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>Enterprise Application Architecture</title>
+	  <link>//enterprise-application-architecture</link>
+	  <author>David L. Whitehurst</author>
+	  <pubDate>2016-01-17T05:31:00-05:00</pubDate>
+	  <guid>//enterprise-application-architecture</guid>
+	  <description><![CDATA[
+	     <p>This post is currently in draft status.</p>
+
+
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>Consulting Services</title>
+	  <link>//consulting-services</link>
+	  <author>David L. Whitehurst</author>
+	  <pubDate>2016-01-17T05:31:00-05:00</pubDate>
+	  <guid>//consulting-services</guid>
+	  <description><![CDATA[
+	     <p>This post is currently in draft status.</p>
+
+
+
+	  ]]></description>
+	</item>
+
+
+</channel>
+</rss>
