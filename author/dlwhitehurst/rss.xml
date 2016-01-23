@@ -21,7 +21,6 @@
 	     <p>Welcome to CI Wise. We're dedicated to being a company that's focused on helping Enterprise be world-class. Are you wise to continuous improvement? Every successful business is on a quest to be better. Our job is to help you get there. Your dreams can be our designs. Tell us more, we're here to help.</p>
 
 
-<p>This post is unfinished and the publish date will be revised with every site update. This keeps our welcome page at the top of our posts.</p>
 
 
 
@@ -35,7 +34,11 @@
 	  <pubDate>2016-01-17T05:31:00-05:00</pubDate>
 	  <guid>//web-development-for-mobile-users</guid>
 	  <description><![CDATA[
-	     <p>This post is currently in draft status.</p>
+	     <p>Today, the internet is viewed by all kinds of devices. These devices generally browse for content using some form of client browser that's written to run on that particular device. And, as developers we've accepted the fact browser choice is a freedom outside of work and sometimes a specification at work. In the workplace there may be no choice. It may be version 13.4 of Internet Explorer and now shut up about it. Enter Browser Wars. It's a game played by all browser-interested parties and web developers hate it. To add to all this confusion, everyone with a data-device (Internet-ready), watches, cell phones, iPads, tablets, laptops big and small, and anything else the world can dream up wants to look at stuff on the internet. We've almost stopped watching TV. We look at monitors and screens now.</p>
+
+<p>For quite some time, this situation was vicious for the web developer. Things are better now but not entirely perfect. We do, however realize that you may want a hosted product that can be used by your office staff indoors and your sales team in the field or on the road. Our development will not box you into doing business our way. These are your dreams. We'll do what you want. If you want an entirely mobile solution we'll do that. And, if you want the best of both worlds we'll do that. There are many architecture options available to all of us today and we can tailor our solution to you. We're flexible. There's no right answer. We will produce the software solution that fits your requirements and provides world-class results.</p>
+
+<p>Contact us today. We want you to realize your dreams and value us as a partner in the collaborative design of your next big thing. As CEO of CI Wise, I want to personally guarantee your satisfaction with us and our work. Call me directly at 919-605-6529. My name is David L. Whitehurst and I'll take your calls as long as I can. And, if I don't answer directly, please leave me a message. I will get back to you.</p> 
 
 
 
@@ -49,20 +52,35 @@
 	  <pubDate>2016-01-17T05:31:00-05:00</pubDate>
 	  <guid>//open-source-web-development-training</guid>
 	  <description><![CDATA[
-	     <p>This post is currently in draft status.</p>
+	     <p>Enterprise software development today is very tricky. And, it's quite expensive. You may have an incongruent mess of applied technology that's outdated and not performing well. You may be thinking about a new IT startup business and don't know where to begin. The choice of technology today is overwhelming. You can have it all but you need a planand that's difficult. Maybe your software as a service (SaaS) application is outdated, performing poorly, difficult to maintain, and your expert developers have chased the recruiters to another hot opportunity. As an enterprise in the IT space, you need to change with the technology, costly or otherwise. And, whether the paradigm of the day models inequitable employees that hold no sense of ownership, you need to train your development staff. Fact.</p>
 
+<p>Talented enterprise developers also acquire business knowledge. And, this may be more valuable than their knowledge of the current technologies. We'll get to those in those in the next paragraph. The business knowledge is proprietary and most valuable to you as an employer. And, I haven't seen many easy-to-understand applications at any place of business. In the last decade I've  developed new applications and worked on existing applications of all kinds. My position has always been one where I fixed the most difficult problems or roughed out the architecture of complex business problems.</p> 
+
+<p>Changes in technology should be secondary. The business requirement should be fixed. And, yet to be competitive we know that business changes as needed. Let's consider a high-level business requirement that doesn't change. There are many ways to deliver software that satisfies this requirement. And, the implementation may take some time to complete. There can be many solutions ranging from useless to delightful. Sometimes an excellent solution becomes slow and very difficult to manage and/or change. This is not usually the case because the design was not considered or scalability factors were not discussed initially. Quite often, long-running software projects do not refactor on an architectural scale. This is almost imperative today.</p>
+
+<p>Sometimes architectures change beyond patterns yet to be documented. An example of this is responsive web design. Enterprise adopted Java early on and I bet many commercial or proprietary web applications, still hosted on server clusters, are slow today and provide an almost irritating user experience. And, why are these applications not fixed right away? Well, this is quite possibly because the team of developers, that didn't write the first version of the application, are spending most of their time trying to understand the original business requirements. The technology they brought with them isn't helping their understanding of the business logic. I'll ask another question. Why can't this group refactor the entire application on an architectural,technology, or platform level? It's because the business can't accept the fact that they need to be as agile as their competition. Or, could it be that their staff doesn't have the expertise to refactor the application architecture?</p>
+
+<p>I don't know whether responsive web design is well-documented at this point or considered to be an architecture pattern. It should be. The original developers that created our bloated old MVC server monolith learned about it from some open source site or from an AngularJS Youtube video. I found that my wife was getting tired of me being buried in an IRC client (geek chat room) and spending long hours training myself for my next gig. While you pay your developers to work on your outdated applications (investments) that increase in cost of ownership daily, they're staying up late nights so they can go to work somewhere they feel a sense of ownership and experience the success of their hard work.</p>
+
+<p>We can train your developers to refactor your enterprise applications to use current technologies. We can also help you plan for platform changes if needed. Best of all, we can train your development staff to be world-class because the open source community overall has set the gold-standard for how-to implement quality-tested, bug-free, and truly-secure software code. We will customize our training to support your needs, however we will suggest changes and recommend acceptable options during initial consultations. Our job is to ultimately improve your enterprise software, provide your developers current and practical training, and automate a solid, more agile process. Open-mindedness and acceptance to change is a psychological trait. Process changes occur with executive and managerial directives. Witnessing the success of your team makes it process adoption and not process direction. Are you open to that?</p>
+
+<p>Contact us today. We want you to realize your dreams and value us as a partner in the collaborative design of your next big thing. As CEO of CI Wise, I want to personally guarantee your satisfaction with us and our work. Call me directly at 919-605-6529. My name is David L. Whitehurst and I'll take your calls as long as I can. And, if I don't answer directly, please leave me a message. I will get back to you.</p>    
 
 	  ]]></description>
 	</item>
 
 	<item>
-	  <title>Enterprise Application Development</title>
-	  <link>//enterprise-application-development</link>
+	  <title>Enterprise Application Architecture</title>
+	  <link>//enterprise-application-architecture</link>
 	  <author>David L. Whitehurst</author>
 	  <pubDate>2016-01-17T05:31:00-05:00</pubDate>
-	  <guid>//enterprise-application-development</guid>
+	  <guid>//enterprise-application-architecture</guid>
 	  <description><![CDATA[
-	     <p>This post is currently in draft status.</p>
+	     <p>Enterprise architecture as we know it is changing quickly. Technology is moving so fast that's it's almost impossible to keep up with it. While our new competitors may be hosting their applications on virtual servers in the cloud, we may have made huge investments in our own infrastructure. We don't believe the infrastructure is as important as the instructions that run that infrastructure. This software, these configurations, and specific instructions make up the operating-side of the enterprise architecture as a whole. While your focus should be a continual assessment of the ROI as it relates to your current enterprise architecture, don't ignore the possibility for change. A small investment today may cause a continued improvement in profit tomorrow.</p>
+
+<p>Speak to patterns and frameworks ...J2EE, TOGAF, ITIL</p>
+
+ 
 
 
 	  ]]></description>
@@ -75,7 +93,11 @@
 	  <pubDate>2016-01-17T05:31:00-05:00</pubDate>
 	  <guid>//consulting-services</guid>
 	  <description><![CDATA[
-	     <p>This post is currently in draft status.</p>
+	     <p>CI Wise is the corporate entity that defines me, the founder David L. Whitehurst. I've been instructing computing machines since 1984. I've used languages like SAS, Forth, COBOL, Fortran, Pascal, Basic, Visual Basic, C, C++, Java, Perl, Python, Groovy, Ruby, Scala, and Javascript. I've written web applications for user clients like BMW North America, Honda, Acura, Volkswagen, Audi, Porsche, Owens Corning, Lenscrafter, Michael J. Fox Foundation, Charles Schwab, RBC Bank, State Farm, AllState, Nationwide, NC Department of Agriculture, and the North Carolina Department of Transportation. I have performance tuned the shared Confluence wiki for Yale, Princeton, and Rutgers Universities. I set up JBoss development environments on datacenter infrastructures for the Oklahoma State Bureau of Investigation and the North Carolina Department of Transportation.</p>
+
+<p>Our expertise is Open Source Enterprise software development. Do you have plans to build something for your company? Are you open to hear about the benefits of open source software? Do you know that you can use open source in proprietary software? Contact us for an initial consultation at no charge to you.</p>
+
+<p>Contact us today. We want you to realize your dreams and value us as a partner in the collaborative design of your next big thing. As CEO of CI Wise, I want to personally guarantee your satisfaction with us and our work. Call me directly at 919-605-6529. My name is David L. Whitehurst and I'll take your calls as long as I can. And, if I don't answer directly, please leave me a message. I will get back to you.</p>
 
 
 
@@ -83,14 +105,17 @@
 	</item>
 
 	<item>
-	  <title>Enterprise Application Architecture</title>
-	  <link>//enterprise-application-architecture</link>
+	  <title>Enterprise Application Development</title>
+	  <link>//enterprise-application-development</link>
 	  <author>David L. Whitehurst</author>
 	  <pubDate>2016-01-17T05:31:00-05:00</pubDate>
-	  <guid>//enterprise-application-architecture</guid>
+	  <guid>//enterprise-application-development</guid>
 	  <description><![CDATA[
-	     <p>This post is currently in draft status.</p>
+	     <p>Application development is costly any way you look at it. Sometimes it looks like all is well and then you're nearing a deadline with some issue that's going to cause significant delays. We're here to help. We can place someone on a part-time basis to help you finish up and meet your deadline. Our consultant/contractors are carefully chosen to be in agreement with my strong principles, character traits, and work ethic. </p>
 
+<p>If you're looking for a development team, we'll build it for you. We can hire the team and implement the software for you. Or we can hire and build a successful team to leave with you when our guidance is no longer needed. We can also contract with you on a temporary basis and provide team leadership or agile training until the team is ready to operate independently.</p> 
+
+<p>Contact us today. We want you to realize your dreams and value us as a partner in the collaborative design of your next big thing. As CEO of CI Wise, I want to personally guarantee your satisfaction with us and our work. Call me directly at 919-605-6529. My name is David L. Whitehurst and I'll take your calls as long as I can. And, if I don't answer directly, please leave me a message. I will get back to you.</p>
 
 	  ]]></description>
 	</item>
@@ -590,23 +615,6 @@ with all requests. We&#39;ll get the token and keep it in a private String membe
 <p>In this method we send the username and password on an HTTP POST request, in query parameters and the client response object populates the returnClass (Token.java). We never see the JSON deserialization because of the Jackson 1.x annotations on our entity objects. Once we have the token, we save the String token to be part of our /api/genaccounts request next. In listing 12 you will notice that we place the key &quot;X-Auth-Token&quot; and the actual token value on the HTTP header. We make the call and the same JSON deserialization into our Account object(s) occurs. This time the returnClass is Account[].class or an array of Account objects. This is what we needed to display our list of accounts.</p>
 
 <p>You can check out my entire connector project at: <a href="https://github.com/ciwise/ci-wise-rest-connector">CIWiseRESTConnector</a> </p>
-
-	  ]]></description>
-	</item>
-
-	<item>
-	  <title>Enterprise Open Source Consulting</title>
-	  <link>//enterprise-open-source-consulting</link>
-	  <author>David L. Whitehurst</author>
-	  <pubDate>2016-01-09T21:06:19-05:00</pubDate>
-	  <guid>//enterprise-open-source-consulting</guid>
-	  <description><![CDATA[
-	     <p>We are hindered today by nothing but our imagination as it relates to computers and technology. Open source continues to provide cookbook solutions 
-to almost every imaginable problem encountered in business or home life. The sheer collection of this software is so immense that the reason people 
-continue to buy proprietary software is only because they either don&#39;t know of the open source solution or think it&#39;s inferior. Cost is still a 
-factor because open source has a steep learning curve. Time is money and that&#39;s where we come in. An open source enterprise consultant can introduce your 
-business to fantastic new technologies that can improve your bottom line. They can lead your development staff into new territory, improving your 
-overall development, testing, continuous integration, deployment, and agility. Contact us at david@ciwise.com or call 919-605-6529.</p>
 
 	  ]]></description>
 	</item>
