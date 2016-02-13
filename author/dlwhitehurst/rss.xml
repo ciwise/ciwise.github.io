@@ -81,18 +81,17 @@
 	</item>
 
 	<item>
-	  <title>Web Development for Mobile Users</title>
-	  <link>//web-development-for-mobile-users</link>
+	  <title>Enterprise Application Architecture</title>
+	  <link>//enterprise-application-architecture</link>
 	  <author>David L. Whitehurst</author>
 	  <pubDate>2016-01-17T05:31:00-05:00</pubDate>
-	  <guid>//web-development-for-mobile-users</guid>
+	  <guid>//enterprise-application-architecture</guid>
 	  <description><![CDATA[
-	     <p>Today, the internet is viewed by all kinds of devices. These devices generally browse for content using some form of client browser that's written to run on that particular device. And, as developers we've accepted the fact browser choice is a freedom outside of work and sometimes a specification at work. In the workplace there may be no choice. It may be version 13.4 of Internet Explorer and now shut up about it. Enter Browser Wars. It's a game played by all browser-interested parties and web developers hate it. To add to all this confusion, everyone with a data-device (Internet-ready), watches, cell phones, iPads, tablets, laptops big and small, and anything else the world can dream up wants to look at stuff on the internet. We've almost stopped watching TV. We look at monitors and screens now.</p>
+	     <p>Enterprise architecture as we know it is changing quickly. Technology is moving so fast that's it's almost impossible to keep up with it. While our new competitors may be hosting their applications on virtual servers in the cloud, we may have made huge investments in our own infrastructure. We don't believe the infrastructure is as important as the instructions that run that infrastructure. This software, these configurations, and specific instructions make up the operating-side of the enterprise architecture as a whole. While your focus should be a continual assessment of the ROI as it relates to your current enterprise architecture, don't ignore the possibility for change. A small investment today may cause a continued improvement in profit tomorrow.</p>
 
-<p>For quite some time, this situation was vicious for the web developer. Things are better now but not entirely perfect. We do, however realize that you may want a hosted product that can be used by your office staff indoors and your sales team in the field or on the road. Our development will not box you into doing business our way. These are your dreams. We'll do what you want. If you want an entirely mobile solution we'll do that. And, if you want the best of both worlds we'll do that. There are many architecture options available to all of us today and we can tailor our solution to you. We're flexible. There's no right answer. We will produce the software solution that fits your requirements and provides world-class results.</p>
+<p>Speak to patterns and frameworks ...J2EE, TOGAF, ITIL</p>
 
-<p>Contact us today. We want you to realize your dreams and value us as a partner in the collaborative design of your next big thing. As CEO of CI Wise, I want to personally guarantee your satisfaction with us and our work. Call me directly at 919-605-6529. My name is David L. Whitehurst and I'll take your calls as long as I can. And, if I don't answer directly, please leave me a message. I will get back to you.</p> 
-
+ 
 
 
 	  ]]></description>
@@ -117,23 +116,6 @@
 	</item>
 
 	<item>
-	  <title>Enterprise Application Architecture</title>
-	  <link>//enterprise-application-architecture</link>
-	  <author>David L. Whitehurst</author>
-	  <pubDate>2016-01-17T05:31:00-05:00</pubDate>
-	  <guid>//enterprise-application-architecture</guid>
-	  <description><![CDATA[
-	     <p>Enterprise architecture as we know it is changing quickly. Technology is moving so fast that's it's almost impossible to keep up with it. While our new competitors may be hosting their applications on virtual servers in the cloud, we may have made huge investments in our own infrastructure. We don't believe the infrastructure is as important as the instructions that run that infrastructure. This software, these configurations, and specific instructions make up the operating-side of the enterprise architecture as a whole. While your focus should be a continual assessment of the ROI as it relates to your current enterprise architecture, don't ignore the possibility for change. A small investment today may cause a continued improvement in profit tomorrow.</p>
-
-<p>Speak to patterns and frameworks ...J2EE, TOGAF, ITIL</p>
-
- 
-
-
-	  ]]></description>
-	</item>
-
-	<item>
 	  <title>Enterprise Application Development</title>
 	  <link>//enterprise-application-development</link>
 	  <author>David L. Whitehurst</author>
@@ -145,6 +127,24 @@
 <p>If you're looking for a development team, we'll build it for you. We can hire the team and implement the software for you. Or we can hire and build a successful team to leave with you when our guidance is no longer needed. We can also contract with you on a temporary basis and provide team leadership or agile training until the team is ready to operate independently.</p> 
 
 <p>Contact us today. We want you to realize your dreams and value us as a partner in the collaborative design of your next big thing. As CEO of CI Wise, I want to personally guarantee your satisfaction with us and our work. Call me directly at 919-605-6529. My name is David L. Whitehurst and I'll take your calls as long as I can. And, if I don't answer directly, please leave me a message. I will get back to you.</p>
+
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>Web Development for Mobile Users</title>
+	  <link>//web-development-for-mobile-users</link>
+	  <author>David L. Whitehurst</author>
+	  <pubDate>2016-01-17T05:31:00-05:00</pubDate>
+	  <guid>//web-development-for-mobile-users</guid>
+	  <description><![CDATA[
+	     <p>Today, the internet is viewed by all kinds of devices. These devices generally browse for content using some form of client browser that's written to run on that particular device. And, as developers we've accepted the fact browser choice is a freedom outside of work and sometimes a specification at work. In the workplace there may be no choice. It may be version 13.4 of Internet Explorer and now shut up about it. Enter Browser Wars. It's a game played by all browser-interested parties and web developers hate it. To add to all this confusion, everyone with a data-device (Internet-ready), watches, cell phones, iPads, tablets, laptops big and small, and anything else the world can dream up wants to look at stuff on the internet. We've almost stopped watching TV. We look at monitors and screens now.</p>
+
+<p>For quite some time, this situation was vicious for the web developer. Things are better now but not entirely perfect. We do, however realize that you may want a hosted product that can be used by your office staff indoors and your sales team in the field or on the road. Our development will not box you into doing business our way. These are your dreams. We'll do what you want. If you want an entirely mobile solution we'll do that. And, if you want the best of both worlds we'll do that. There are many architecture options available to all of us today and we can tailor our solution to you. We're flexible. There's no right answer. We will produce the software solution that fits your requirements and provides world-class results.</p>
+
+<p>Contact us today. We want you to realize your dreams and value us as a partner in the collaborative design of your next big thing. As CEO of CI Wise, I want to personally guarantee your satisfaction with us and our work. Call me directly at 919-605-6529. My name is David L. Whitehurst and I'll take your calls as long as I can. And, if I don't answer directly, please leave me a message. I will get back to you.</p> 
+
+
 
 	  ]]></description>
 	</item>
