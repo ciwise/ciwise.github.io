@@ -12,6 +12,105 @@
    <atom:link href="rss" rel="self" type="application/rss+xml" />
    
 	<item>
+	  <title>Security Consideration and Lifestyle Exchange (SCALE)</title>
+	  <link>//security-consideration-and-lifestyle-exchange</link>
+	  <author>David L. Whitehurst</author>
+	  <pubDate>2016-06-25T07:01:00-04:00</pubDate>
+	  <guid>//security-consideration-and-lifestyle-exchange</guid>
+	  <description><![CDATA[
+	     <h3>Introduction</h3>
+<p>It is my firm belief that developers today are not focused on security during periods of head-down
+development. I would love to know the percentage of web developers that know about the Open Web
+Application Security Project or OWASP. This non-profit organization is simply focused on the secure
+development of web applications. Their education and guidance is freely available to the public yet I do
+not read much about security in the public development circles, blogs, etc.</p>
+
+<p>OWASP first published a book called the Code Review Guide in 2006. In 2006, I led a team on the
+development of a large web application for the administration of the Women, Infants, and Children
+(WIC) program for the state of Massachusetts. We were doing weekly code reviews and our focus was
+on best practice and quality development of the software. Quality code is secure code.</p>
+
+<p>OWASP had noticed in their 2006 publication where organizations had implemented a proper code
+review function into their software development lifecycle (SDLC), they enjoyed remarkably better
+code from a security perspective. The team code review does not, however guarantee a security
+consideration or security focus on the architecture, designs, patterns, or methods being implemented.
+This consideration must come from the developers themselves.</p>
+
+<h3>Urgency</h3>
+<p>Throughout my career I have strived to create a sense of urgency where I have had the authority to
+bring about change in the organization. As a business owner, I receive about 10-15 whitepapers from
+various sources daily covering many IT subjects but most of these papers are communicating the need
+for more security in our IT infrastructures, products and services, on-premise or off. The education and
+intelligence of sorts is mostly marketing by organizations to provide security tools or consulting with
+the promise to make my business more secure. They are creating the sense of urgency here by using the
+psychology of fear in their publications.
+</p>
+<p>Security of IT infrastructure, products, or services starts from within. Who creates these infrastructures,
+products, or service offerings? Your development staff, team, or group(s). They also define the level of
+security that protects your assets. We all need to create a sense of urgency across the entire IT
+department. And, it starts with you.
+</p>
+<h3>Culture</h3>
+<p>The culture of security is almost non-existent today. Early in my career the term DevOps did not exist. 
+Network and development personnel were separated by the culture of the type of work they did.
+Networks administrators and help-desk employees protected everything. They opened and closed
+firewall ports. They enforced continual password changes. They required red-tape for employees that
+forgot those seriously secure passwords. They lived and operated within a culture of distrust. "Why do
+you need to change your password?'', they asked. "You already have firewall access to port 80. Why do
+you need port 8080?'', would be the question. They live a lifestyle of distrust. It seemed respectable at
+the time. Was the answer to security to choke the creativity of the development staff?
+</p>
+<p>The development staff would operate within a culture of creativeness. If it can be done, we'll do it. The
+developers would figure out all the ways to bypass the in-place security practices and get the job done.
+In many cases, these practices were unknown to the software development manager or director. This
+culture still exists today within many organizations. DevOps is an attempt to place a trusted liaison
+between the distrusting network folks and those flip-flop-wearing, loose-cannon developers. It sounds
+promising. We now have a true mediating faction to resolve process conflicts between camps.
+Discrimination between the cultures will now be non-existent. This is not my belief.
+</p>
+<h3>Proposal</h3>
+<p>My proposal is a complement to DevOps. I propose we give the IT community one more acronym, and
+in this case, called SCALE or Security Consideration and Lifestyle Exchange. I'm going to hereafter
+refer to we as the shorts and flip-flops faction or software developers. We need to live a lifestyle of
+security consideration from now until eternity or until spoofing, tampering, repudiation, disclosure,
+denial of service, and elevation of privilege cease to exist, which ever comes first. The acronym
+SCALE was purposely spelled scale to help with conceptual thinking within this new lifestyle. If we
+don't always consider security vulnerabilities when we code, these inherent risks to the software, truly
+scale within the code-bases to which we commit. Much of the software written today is owned by an
+organization and not the individual developers. However, each developer needs to assume ownership of
+the code that she develops. And, we also need to exchange education about security as we do our code
+reviews and within any other discussions related to software development and security.
+</p>
+<p>If you are a homeowner, you probably lock the doors at night. You take care of your home and you
+protect your investment. Your home is your shelter. It's safe and secure. I've had the mind-boggling
+opportunity to work with developers from around the world that assumed no ownership whatsoever of
+the code they were responsible for. That's ludicrous. This gives me the sense of urgency to correct this
+problem even though it's not my responsibility. It makes me want to add the bullet - accountable for
+the quality of your code to all these developer opportunities that ride the internet daily. Emails authored
+by senior talent recruiters and technical companies, that provide talent to our enterprises, and do not
+know what their clients really want in a software developer.
+</p>
+<p>We need to consider security with every project start, code review, and subsequent release of the
+software. We should also do a threat model during the inception phase or just before we start
+development. We should do another threat model just before the first release and also discuss the model
+with each subsequent release. Security should be how we roll my friends. It should be our new
+lifestyle. Whether the code belongs to you or your employer, it should be the best that it can be. That
+depends on you solely.
+</p>
+<h3>Conclusion</h3>
+<p>I hope that you will add SCALE or Security Consideration and Lifestyle Exchange right next to the
+SDLC acronym in your minds. I also hope that you (we), the development community continue to
+move in this direction. Make the consideration of security part of your personal process. Think of it as a
+revolution. Don't rush the quality of your work. And, by all means, have it code reviewed. If you cheat
+yourself on testing code coverage, at least let a cube-mate look at it when you're done.Be a listener and
+learn from your seniors. Know that when you SCALE, your work doesn't add to the increasing risk of
+security vulnerabilities with the growth of your software repositories.
+</p>
+
+	  ]]></description>
+	</item>
+
+	<item>
 	  <title>Welcome to CI Wise</title>
 	  <link>//welcome-to-ci-wise</link>
 	  <author>David L. Whitehurst</author>
@@ -57,30 +156,6 @@
 	</item>
 
 	<item>
-	  <title>Open Source Development Training</title>
-	  <link>//open-source-web-development-training</link>
-	  <author>David L. Whitehurst</author>
-	  <pubDate>2016-01-17T05:31:00-05:00</pubDate>
-	  <guid>//open-source-web-development-training</guid>
-	  <description><![CDATA[
-	     <p>Enterprise software development today is very tricky. And, it's quite expensive. You may have an incongruent mess of applied technology that's outdated and not performing well. You may be thinking about a new IT startup business and don't know where to begin. The choice of technology today is overwhelming. You can have it all but you need a planand that's difficult. Maybe your software as a service (SaaS) application is outdated, performing poorly, difficult to maintain, and your expert developers have chased the recruiters to another hot opportunity. As an enterprise in the IT space, you need to change with the technology, costly or otherwise. And, whether the paradigm of the day models inequitable employees that hold no sense of ownership, you need to train your development staff. Fact.</p>
-
-<p>Talented enterprise developers also acquire business knowledge. And, this may be more valuable than their knowledge of the current technologies. We'll get to those in those in the next paragraph. The business knowledge is proprietary and most valuable to you as an employer. And, I haven't seen many easy-to-understand applications at any place of business. In the last decade I've  developed new applications and worked on existing applications of all kinds. My position has always been one where I fixed the most difficult problems or roughed out the architecture of complex business problems.</p> 
-
-<p>Changes in technology should be secondary. The business requirement should be fixed. And, yet to be competitive we know that business changes as needed. Let's consider a high-level business requirement that doesn't change. There are many ways to deliver software that satisfies this requirement. And, the implementation may take some time to complete. There can be many solutions ranging from useless to delightful. Sometimes an excellent solution becomes slow and very difficult to manage and/or change. This is not usually the case because the design was not considered or scalability factors were not discussed initially. Quite often, long-running software projects do not refactor on an architectural scale. This is almost imperative today.</p>
-
-<p>Sometimes architectures change beyond patterns yet to be documented. An example of this is responsive web design. Enterprise adopted Java early on and I bet many commercial or proprietary web applications, still hosted on server clusters, are slow today and provide an almost irritating user experience. And, why are these applications not fixed right away? Well, this is quite possibly because the team of developers, that didn't write the first version of the application, are spending most of their time trying to understand the original business requirements. The technology they brought with them isn't helping their understanding of the business logic. I'll ask another question. Why can't this group refactor the entire application on an architectural,technology, or platform level? It's because the business can't accept the fact that they need to be as agile as their competition. Or, could it be that their staff doesn't have the expertise to refactor the application architecture?</p>
-
-<p>I don't know whether responsive web design is well-documented at this point or considered to be an architecture pattern. It should be. The original developers that created our bloated old MVC server monolith learned about it from some open source site or from an AngularJS Youtube video. I found that my wife was getting tired of me being buried in an IRC client (geek chat room) and spending long hours training myself for my next gig. While you pay your developers to work on your outdated applications (investments) that increase in cost of ownership daily, they're staying up late nights so they can go to work somewhere they feel a sense of ownership and experience the success of their hard work.</p>
-
-<p>We can train your developers to refactor your enterprise applications to use current technologies. We can also help you plan for platform changes if needed. Best of all, we can train your development staff to be world-class because the open source community overall has set the gold-standard for how-to implement quality-tested, bug-free, and truly-secure software code. We will customize our training to support your needs, however we will suggest changes and recommend acceptable options during initial consultations. Our job is to ultimately improve your enterprise software, provide your developers current and practical training, and automate a solid, more agile process. Open-mindedness and acceptance to change is a psychological trait. Process changes occur with executive and managerial directives. Witnessing the success of your team makes it process adoption and not process direction. Are you open to that?</p>
-
-<p>Contact us today. We want you to realize your dreams and value us as a partner in the collaborative design of your next big thing. As CEO of CI Wise, I want to personally guarantee your satisfaction with us and our work. Call me directly at 919-605-6529. My name is David L. Whitehurst and I'll take your calls as long as I can. And, if I don't answer directly, please leave me a message. I will get back to you.</p>    
-
-	  ]]></description>
-	</item>
-
-	<item>
 	  <title>Web Development for Mobile Users</title>
 	  <link>//web-development-for-mobile-users</link>
 	  <author>David L. Whitehurst</author>
@@ -117,6 +192,22 @@
 	</item>
 
 	<item>
+	  <title>Enterprise Application Development</title>
+	  <link>//enterprise-application-development</link>
+	  <author>David L. Whitehurst</author>
+	  <pubDate>2016-01-17T05:31:00-05:00</pubDate>
+	  <guid>//enterprise-application-development</guid>
+	  <description><![CDATA[
+	     <p>Application development is costly any way you look at it. Sometimes it looks like all is well and then you're nearing a deadline with some issue that's going to cause significant delays. We're here to help. We can place someone on a part-time basis to help you finish up and meet your deadline. Our consultant/contractors are carefully chosen to be in agreement with my strong principles, character traits, and work ethic. </p>
+
+<p>If you're looking for a development team, we'll build it for you. We can hire the team and implement the software for you. Or we can hire and build a successful team to leave with you when our guidance is no longer needed. We can also contract with you on a temporary basis and provide team leadership or agile training until the team is ready to operate independently.</p> 
+
+<p>Contact us today. We want you to realize your dreams and value us as a partner in the collaborative design of your next big thing. As CEO of CI Wise, I want to personally guarantee your satisfaction with us and our work. Call me directly at 919-605-6529. My name is David L. Whitehurst and I'll take your calls as long as I can. And, if I don't answer directly, please leave me a message. I will get back to you.</p>
+
+	  ]]></description>
+	</item>
+
+	<item>
 	  <title>Enterprise Application Architecture</title>
 	  <link>//enterprise-application-architecture</link>
 	  <author>David L. Whitehurst</author>
@@ -134,17 +225,25 @@
 	</item>
 
 	<item>
-	  <title>Enterprise Application Development</title>
-	  <link>//enterprise-application-development</link>
+	  <title>Open Source Development Training</title>
+	  <link>//open-source-web-development-training</link>
 	  <author>David L. Whitehurst</author>
 	  <pubDate>2016-01-17T05:31:00-05:00</pubDate>
-	  <guid>//enterprise-application-development</guid>
+	  <guid>//open-source-web-development-training</guid>
 	  <description><![CDATA[
-	     <p>Application development is costly any way you look at it. Sometimes it looks like all is well and then you're nearing a deadline with some issue that's going to cause significant delays. We're here to help. We can place someone on a part-time basis to help you finish up and meet your deadline. Our consultant/contractors are carefully chosen to be in agreement with my strong principles, character traits, and work ethic. </p>
+	     <p>Enterprise software development today is very tricky. And, it's quite expensive. You may have an incongruent mess of applied technology that's outdated and not performing well. You may be thinking about a new IT startup business and don't know where to begin. The choice of technology today is overwhelming. You can have it all but you need a planand that's difficult. Maybe your software as a service (SaaS) application is outdated, performing poorly, difficult to maintain, and your expert developers have chased the recruiters to another hot opportunity. As an enterprise in the IT space, you need to change with the technology, costly or otherwise. And, whether the paradigm of the day models inequitable employees that hold no sense of ownership, you need to train your development staff. Fact.</p>
 
-<p>If you're looking for a development team, we'll build it for you. We can hire the team and implement the software for you. Or we can hire and build a successful team to leave with you when our guidance is no longer needed. We can also contract with you on a temporary basis and provide team leadership or agile training until the team is ready to operate independently.</p> 
+<p>Talented enterprise developers also acquire business knowledge. And, this may be more valuable than their knowledge of the current technologies. We'll get to those in those in the next paragraph. The business knowledge is proprietary and most valuable to you as an employer. And, I haven't seen many easy-to-understand applications at any place of business. In the last decade I've  developed new applications and worked on existing applications of all kinds. My position has always been one where I fixed the most difficult problems or roughed out the architecture of complex business problems.</p> 
 
-<p>Contact us today. We want you to realize your dreams and value us as a partner in the collaborative design of your next big thing. As CEO of CI Wise, I want to personally guarantee your satisfaction with us and our work. Call me directly at 919-605-6529. My name is David L. Whitehurst and I'll take your calls as long as I can. And, if I don't answer directly, please leave me a message. I will get back to you.</p>
+<p>Changes in technology should be secondary. The business requirement should be fixed. And, yet to be competitive we know that business changes as needed. Let's consider a high-level business requirement that doesn't change. There are many ways to deliver software that satisfies this requirement. And, the implementation may take some time to complete. There can be many solutions ranging from useless to delightful. Sometimes an excellent solution becomes slow and very difficult to manage and/or change. This is not usually the case because the design was not considered or scalability factors were not discussed initially. Quite often, long-running software projects do not refactor on an architectural scale. This is almost imperative today.</p>
+
+<p>Sometimes architectures change beyond patterns yet to be documented. An example of this is responsive web design. Enterprise adopted Java early on and I bet many commercial or proprietary web applications, still hosted on server clusters, are slow today and provide an almost irritating user experience. And, why are these applications not fixed right away? Well, this is quite possibly because the team of developers, that didn't write the first version of the application, are spending most of their time trying to understand the original business requirements. The technology they brought with them isn't helping their understanding of the business logic. I'll ask another question. Why can't this group refactor the entire application on an architectural,technology, or platform level? It's because the business can't accept the fact that they need to be as agile as their competition. Or, could it be that their staff doesn't have the expertise to refactor the application architecture?</p>
+
+<p>I don't know whether responsive web design is well-documented at this point or considered to be an architecture pattern. It should be. The original developers that created our bloated old MVC server monolith learned about it from some open source site or from an AngularJS Youtube video. I found that my wife was getting tired of me being buried in an IRC client (geek chat room) and spending long hours training myself for my next gig. While you pay your developers to work on your outdated applications (investments) that increase in cost of ownership daily, they're staying up late nights so they can go to work somewhere they feel a sense of ownership and experience the success of their hard work.</p>
+
+<p>We can train your developers to refactor your enterprise applications to use current technologies. We can also help you plan for platform changes if needed. Best of all, we can train your development staff to be world-class because the open source community overall has set the gold-standard for how-to implement quality-tested, bug-free, and truly-secure software code. We will customize our training to support your needs, however we will suggest changes and recommend acceptable options during initial consultations. Our job is to ultimately improve your enterprise software, provide your developers current and practical training, and automate a solid, more agile process. Open-mindedness and acceptance to change is a psychological trait. Process changes occur with executive and managerial directives. Witnessing the success of your team makes it process adoption and not process direction. Are you open to that?</p>
+
+<p>Contact us today. We want you to realize your dreams and value us as a partner in the collaborative design of your next big thing. As CEO of CI Wise, I want to personally guarantee your satisfaction with us and our work. Call me directly at 919-605-6529. My name is David L. Whitehurst and I'll take your calls as long as I can. And, if I don't answer directly, please leave me a message. I will get back to you.</p>    
 
 	  ]]></description>
 	</item>
