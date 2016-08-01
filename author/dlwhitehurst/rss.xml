@@ -12,6 +12,22 @@
    <atom:link href="rss" rel="self" type="application/rss+xml" />
    
 	<item>
+	  <title>Welcome to CI Wise</title>
+	  <link>//welcome-to-ci-wise</link>
+	  <author>David L. Whitehurst</author>
+	  <pubDate>2016-08-01T10:01:00-04:00</pubDate>
+	  <guid>//welcome-to-ci-wise</guid>
+	  <description><![CDATA[
+	     <p>Welcome to CI Wise. We're dedicated to being a company that's focused on helping start-ups and smaller enterprises be world-class. Are you wise to Continuous Improvement practices? Every successful business is on a quest to be better. Our job is to help you get there using open source and economical architectural solutions. This is our specialty. Your dreams can be our designs. You can operate your IT and Software infrastructure just like the bigger, more capitalized corporations. That's the environment we were trained in. With education, there are ways to do things without the purchase of expensive third-party software. We're here to inform you e.g. you can run an enterprise service bus and integrate your software as a service (SaaS) applications. You can can execute your batch operations beyond extensive script processing. It's possible to enter the Microservice arena with minimal investment. We can design solid solutions for you. Tell us more, we're here to help. We're here to serve you.</p>
+
+
+
+
+
+	  ]]></description>
+	</item>
+
+	<item>
 	  <title>Security Consideration and Lifestyle Exchange (SCALE)</title>
 	  <link>//security-consideration-and-lifestyle-exchange</link>
 	  <author>David L. Whitehurst</author>
@@ -106,22 +122,6 @@ yourself on testing code coverage, at least let a cube-mate look at it when you'
 learn from your seniors. Know that when you SCALE, your work doesn't add to the increasing risk of
 security vulnerabilities with the growth of your software repositories.
 </p>
-
-	  ]]></description>
-	</item>
-
-	<item>
-	  <title>Welcome to CI Wise</title>
-	  <link>//welcome-to-ci-wise</link>
-	  <author>David L. Whitehurst</author>
-	  <pubDate>2016-01-30T12:43:00-05:00</pubDate>
-	  <guid>//welcome-to-ci-wise</guid>
-	  <description><![CDATA[
-	     <p>Welcome to CI Wise. We're dedicated to being a company that's focused on helping Enterprise be world-class. Are you wise to continuous improvement? Every successful business is on a quest to be better. Our job is to help you get there. Your dreams can be our designs. Tell us more, we're here to help.</p>
-
-
-
-
 
 	  ]]></description>
 	</item>
